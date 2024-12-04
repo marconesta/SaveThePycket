@@ -1,0 +1,10 @@
+{
+    "buildingID": 7,
+    "sensorID": "sensor_kb_7",
+    "sensor_type": "code",
+    "sensor_unit": "string",
+    "sensor_location": "door",
+    "topic": "SaveThePycket/sensors/keyboards/sensor_kb_7",
+    "server_ip": "127.0.0.1",
+    "server_port": 8089
+}

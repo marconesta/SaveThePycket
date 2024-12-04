@@ -1,0 +1,1 @@
+start cmd.exe /c python.exe Sensor_doorbell.py

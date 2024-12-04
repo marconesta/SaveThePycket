@@ -1,0 +1,19 @@
+{
+    "services": [
+        {
+            "id": "mqtt_connection",
+            "broker": "test.mosquitto.org",
+            "broker_port": 1883
+        },
+        {
+            "id": "resource_catalog",
+            "ip_address": "127.0.0.1",
+            "ip_port": 8078
+        },
+        {
+            "id": "mongodb_adaptor",
+            "ip_address": "127.0.0.1",
+            "ip_port": 8079
+        }
+    ]
+}

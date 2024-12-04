@@ -1,0 +1,198 @@
+{
+    "building_sensors": [
+        {
+            "buildingID": 7,
+            "sensorID": "sensor_kb_7",
+            "sensor_type": "code",
+            "sensor_unit": "string",
+            "sensor_location": "door",
+            "topic": "SaveThePycket/sensors/keyboards/sensor_kb_7",
+            "server_ip": "127.0.0.1",
+            "server_port": 8089
+        },
+        {
+            "buildingID": 7,
+            "sensorID": "sensor_Reldoor_7",
+            "sensor_type": "Relaydoor",
+            "sensor_unit": "Boolean",
+            "sensor_location": "apartment",
+            "topic": "SaveThePycket/sensors/sensor_Reldoor_7",
+            "server_ip": "127.0.0.1",
+            "server_port": 8089
+        },
+        {
+            "buildingID": 7,
+            "userID": 3,
+            "sensorID": "sensor_dB_3",
+            "sensor_type": "sound",
+            "sensor_unit": "dB",
+            "sensor_location": "apartment",
+            "topic": "SaveThePycket/sensors/doorbells/sensor_dB_3",
+            "server_ip": "127.0.0.1",
+            "server_port": 8089
+        }
+    ],
+    "buildings": [
+        {
+            "buildingID": 1,
+            "address_road": "Via Pigafetta",
+            "address_number": 13,
+            "password": "300899"
+        },
+        {
+            "buildingID": 3,
+            "address_road": "Via Pigafetta",
+            "address_number": 25,
+            "password": "1234"
+        },
+        {
+            "buildingID": 2,
+            "address_road": "Via Muriaglio",
+            "address_number": 10,
+            "password": "291694"
+        },
+        {
+            "buildingID": 4,
+            "address_road": "Via Marco Polo",
+            "address_number": 1,
+            "password": "1234"
+        },
+        {
+            "buildingID": 5,
+            "address_road": "Via Colli",
+            "address_number": 7,
+            "password": "1234"
+        },
+        {
+            "buildingID": 6,
+            "address_road": "Corso Duca degli Abruzzi",
+            "address_number": 108,
+            "password": "1234"
+        },
+        {
+            "buildingID": 7,
+            "address_road": "Via Cassini",
+            "address_number": 22,
+            "password": "292521"
+        },
+        {
+            "buildingID": 8,
+            "address_road": "Corso Peschiera",
+            "address_number": 205,
+            "password": "292518"
+        }
+    ],
+    "boxes": [
+        {
+            "buildingID": 7,
+            "boxID": 1,
+            "status": "False"
+        },
+        {
+            "buildingID": 7,
+            "boxID": 2,
+            "status": "False"
+        }
+    ],
+    "box_sensors": [
+        {
+            "buildingID": 7,
+            "boxID": 1,
+            "sensorID": "sensor_led_1",
+            "sensor_name": "LED status",
+            "sensor_type": "led",
+            "sensor_unit": "Boolean",
+            "sensor_location": "box",
+            "topic": "SaveThePycket/sensors/sensor_led_7_1",
+            "server_ip": "127.0.0.1",
+            "server_port": 8089
+        },
+        {
+            "buildingID": 7,
+            "boxID": 2,
+            "sensorID": "sensor_led_2",
+            "sensor_name": "LED status",
+            "sensor_type": "led",
+            "sensor_unit": "Boolean",
+            "sensor_location": "box",
+            "topic": "SaveThePycket/sensors/sensor_led_7_2",
+            "server_ip": "127.0.0.1",
+            "server_port": 8089
+        },
+        {
+            "buildingID": 7,
+            "boxID": 1,
+            "sensorID": "sensor_Relbox_7_1",
+            "sensor_name": "Relay Box status",
+            "sensor_type": "relay",
+            "sensor_unit": "Boolean",
+            "sensor_location": "box",
+            "topic": "SaveThePycket/sensors/sensor_Relbox_7_1",
+            "server_ip": "127.0.0.1",
+            "server_port": 8089
+        },
+        {
+            "buildingID": 7,
+            "boxID": 2,
+            "sensorID": "sensor_Relbox_7_2",
+            "sensor_name": "Relay Box status",
+            "sensor_type": "relay",
+            "sensor_unit": "Boolean",
+            "sensor_location": "box",
+            "topic": "SaveThePycket/sensors/sensor_Relbox_7_2",
+            "server_ip": "127.0.0.1",
+            "server_port": 8089
+        },
+        {
+            "buildingID": 7,
+            "boxID": 1,
+            "sensorID": "sensor_Wg_7_1",
+            "sensor_name": "Weight Sensor",
+            "sensor_type": "weight",
+            "sensor_unit": "g",
+            "sensor_location": "box",
+            "topic": "SaveThePycket/sensors/sensor_Wg_7_1",
+            "server_ip": "127.0.0.1",
+            "server_port": 8089
+        },
+        {
+            "buildingID": 7,
+            "boxID": 2,
+            "sensorID": "sensor_Wg_7_2",
+            "sensor_name": "Weight Sensor",
+            "sensor_type": "weight",
+            "sensor_unit": "g",
+            "sensor_location": "box",
+            "topic": "SaveThePycket/sensors/sensor_Wg_7_2",
+            "server_ip": "127.0.0.1",
+            "server_port": 8089
+        }
+    ],
+    "users": [
+        {
+            "userID": 1,
+            "user_name": "Aurora Martiny",
+            "chatID": 0,
+            "buildingID": 1
+        },
+        {
+            "userID": 2,
+            "user_name": "Leandra Valenti",
+            "chatID": 0,
+            "buildingID": 2
+        },
+        {
+            "userID": 3,
+            "user_name": "Paola Migneco",
+            "chatID": 1868219069,
+            "buildingID": 7
+        },
+        {
+            "userID": 4,
+            "user_name": "Marco Nesta",
+            "chatID": 0,
+            "buildingID": 8
+        }
+    ],
+    "admins": []
+}

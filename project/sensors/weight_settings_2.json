@@ -1,0 +1,12 @@
+{
+    "buildingID": 7,
+    "boxID": 2,
+    "sensorID": "sensor_Wg_7_2",
+    "sensor_name": "Weight Sensor",
+    "sensor_type": "weight",
+    "sensor_unit": "g",
+    "sensor_location": "box",
+    "topic": "SaveThePycket/sensors/sensor_Wg_7_2",
+    "server_ip": "127.0.0.1",
+    "server_port": 8089
+}

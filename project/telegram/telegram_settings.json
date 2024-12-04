@@ -1,0 +1,6 @@
+{
+    "clientID":"telegram_bot",
+    "token":"5976794917:AAHql6VjFn_DIw9tLvUIRg0CVUrqXP3NoLQ",
+    "broker":"test.mosquitto.org",
+    "port":1883
+}

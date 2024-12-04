@@ -1,0 +1,1 @@
+start cmd.exe /c python.exe admin_registration.py

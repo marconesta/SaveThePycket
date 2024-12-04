@@ -1,0 +1,1 @@
+start cmd.exe /c python.exe Resource_Catalog.py

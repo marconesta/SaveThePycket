@@ -1,0 +1,1 @@
+start cmd.exe /c python.exe mongodb_adaptor.py

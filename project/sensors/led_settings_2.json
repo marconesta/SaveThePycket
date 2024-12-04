@@ -1,0 +1,12 @@
+{
+    "buildingID": 7,
+    "boxID": 2,
+    "sensorID": "sensor_led_2",
+    "sensor_name": "LED status",
+    "sensor_type": "led",
+    "sensor_unit":  "Boolean",
+    "sensor_location": "box",
+    "topic": "SaveThePycket/sensors/sensor_led_7_2",
+    "server_ip": "127.0.0.1",
+    "server_port": 8089
+}
